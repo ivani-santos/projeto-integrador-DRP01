@@ -40,7 +40,7 @@ Em grupo, tivemos que delimitar um problema a partir do tema norteador da discip
 
 <b>Tema escolhido pelo grupo com base no tema norteador da Univesp:</b> desenvolvimento de um software com framework web para a divulgação de portfólio de profissionais autônomos de vários segmentos, utilizando de banco de dados para o armazenamento de informações e controle de versão para registro da evolução do grupo.
 
-<b>Título:</b> 
+<b>Título:</b> Como conectar profissionais autônomos de fotografia com novos clientes.
 
 <b>Orientador:</b> Carlos Alan Vieira Do Nascimento 
 
@@ -50,10 +50,10 @@ Em grupo, tivemos que delimitar um problema a partir do tema norteador da discip
 
 <h3 id="features">Metodologia</h3>
 
-Linguagem de programação: [Python](https://www.python.org/)
-Framework Web: [Flask](https://flask.palletsprojects.com/en/stable/)
-Banco de dados: [MySQL](https://www.mysql.com/)
-Controle de versões: [GitHub](https://docs.github.com/pt)
+- Linguagem de programação: [Python](https://www.python.org/)
+- Framework Web: [Flask](https://flask.palletsprojects.com/en/stable/)
+- Banco de dados: [MySQL](https://www.mysql.com/)
+- Controle de versões: [GitHub](https://docs.github.com/pt)
 
 <p align="right">(<a href="#readme-top">voltar ao início</a>)</p>
 
