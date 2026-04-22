@@ -33,14 +33,13 @@ _Read this in other languages:_
 
 <h2 id="about-the-project"><p align="center">Sobre o Projeto Integrador</p></h2>
 
-Trata-se de uma atividade curricular obrigatória que consiste na resolução de um problema real contextualizado na profissão em que o curso de Bacharelado em Tecnologia da Informação está inserido.​
-Em grupo, tivemos que delimitar um problema a partir do tema norteador da disciplina, propondo uma solução aplicável e usando os conhecimentos estudados nas disciplinas cursadas até o momento.
+Trata-se de uma atividade curricular obrigatória, consiste na resolução de um problema real contextualizado na profissão em que o curso de Bacharelado em Tecnologia da Informação está inserido.​ Em grupo, tivemos que delimitar um problema a partir do tema norteador da disciplina de DRP01-Projeto Integrador em Computação I, propondo uma solução aplicável e usando os conhecimentos estudados nas disciplinas cursadas até o momento.
 
 <b>Tema norteador:</b> desenvolvimento de um software com framework web que utilize noções de banco de dados, praticando controle de versão.
 
-<b>Tema escolhido pelo grupo com base no tema norteador da Univesp:</b> desenvolvimento de um software com framework web para a divulgação de portfólio de profissionais autônomos de vários segmentos, utilizando de banco de dados para o armazenamento de informações e controle de versão para registro da evolução do grupo.
+<b>Tema escolhido pelo grupo com base no tema norteador da Univesp:</b> desenvolvimento de um software com framework web para a divulgação de portfólio e captação de clientes para profissionais do ramo fotográfico, utilizando de banco de dados para o armazenamento de informações e controle de versão para o registro da evolução do grupo.
 
-<b>Título:</b> FOTECTA - Como conectar fotógrafos profissionais com novos clientes
+<b>Título:</b> FOTECTA - Como conectar fotógrafos com novos clientes
 
 <b>Orientador:</b> Carlos Alan Vieira Do Nascimento 
 
@@ -52,7 +51,7 @@ Em grupo, tivemos que delimitar um problema a partir do tema norteador da discip
 
 - Linguagem de programação: [Python](https://www.python.org/)
 - Framework Web: [Flask](https://flask.palletsprojects.com/en/stable/)
-- Banco de dados: [MySQL](https://www.mysql.com/), [Figma](https://www.figma.com/) e [Excel](https://excel.cloud.microsoft/)
+- Banco de dados: [MySQL](https://www.mysql.com/)
 - Controle de versões: [GitHub](https://docs.github.com/pt)
 
 <p align="right">(<a href="#readme-top">voltar ao início</a>)</p>
@@ -61,8 +60,6 @@ Em grupo, tivemos que delimitar um problema a partir do tema norteador da discip
 <h3 id="prerequisites">Pré-requisitos</h3>
 
 - IDE [Visual Studio Code 1.98.2](https://ode.visualstudio.com/download)
-- Extensão [Pylance _v2025.3.2_](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
-- Extensão [Python _v2025.2.0_](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
 <h3 id="installation">Instalação</h3>
 
