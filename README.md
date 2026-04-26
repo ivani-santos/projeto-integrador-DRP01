@@ -60,6 +60,8 @@ Trata-se de uma atividade curricular obrigatória, consiste na resolução de um
 <h3 id="prerequisites">Pré-requisitos</h3>
 
 - IDE [Visual Studio Code 1.98.2](https://ode.visualstudio.com/download)
+- Flask [Criação de ambiente e instalação](https://flask.palletsprojects.com/en/stable/installation/)
+- Bootstrap-flask [Instalação](https://bootstrap-flask.readthedocs.io/en/stable/basic/#installation)
 
 <h3 id="installation">Instalação</h3>
 
