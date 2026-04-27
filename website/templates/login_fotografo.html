@@ -1,6 +1,30 @@
 {% extends "base.html" %} {% block title %}Login Fotografo - FOTECTA: Como conectar fotógrafos com novos clientes{% endblock %}
 {%block content%}
 
-<h1> LOGIN DO PROFISSIONAL E SENHA </h1>
+<form method="GET">
 
+    <h3 align="center">lOGIN DO PROFISSIONAL</h3>
+    <div class="form-group">
+        <label for="email">Endereço de Email</label>
+        <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="Digite seu Email"
+        />
+    </div>
+    <div class="form-group">
+        <label for="password1">Digite sua senha</label>
+        <input
+            type="password"
+            class="form-control"
+            id="password1"
+            name="password1"
+            placeholder="Digite sua senha"
+        />
+    </div>
+    <br/>
+    <button type="submit" class="btn btn-primary">Entrar como Profissional</button>
+</form>
 {%endblock%}

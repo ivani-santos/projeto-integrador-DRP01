@@ -1,6 +1,62 @@
 {% extends "base.html" %} {% block title %}Cadastro Cliente - FOTECTA: Como conectar fotógrafos com novos clientes{% endblock %}
 {%block content%}
 
-<h1> NOVO CADASTRO PARA CLIENTES </h1>
+<form method="POST">
 
+    <h3 align="center">NOVO CADASTRO PARA CLIENTES</h3>
+    <div class="form-group">
+        <label for="email">Endereço de Email</label>
+        <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="Digite seu Email"
+        />
+
+    </div>
+    <div class="form-group">
+        <label for="firstName">Digite seu Nome</label>
+        <input
+            type="text"
+            class="form-control"
+            id="firstName"
+            name="firstName"
+            placeholder="José"
+        />
+
+    </div>
+    <div class="form-group">
+        <label for="lastName">Digite seu Sobrenome</label>
+        <input
+            type="text"
+            class="form-control"
+            id="lastName"
+            name="lastName"
+            placeholder="Da Silva Pereira"
+        />
+    </div>
+    <div class="form-group">
+        <label for="password1">Crie uma senha</label>
+        <input
+            type="password"
+            class="form-control"
+            id="password1"
+            name="password1"
+            placeholder="Crie uma senha"
+        />
+    </div>
+    <div class="form-group">
+        <label for="password2">Confirme sua senha</label>
+        <input
+            type="password"
+            class="form-control"
+            id="password2"
+            name="password2"
+            placeholder="Confirme sua senha"
+        />
+    </div>
+    <br/>
+    <button type="submit" class="btn btn-primary">Criar Conta para Cliente</button>
+</form>
 {%endblock%}
