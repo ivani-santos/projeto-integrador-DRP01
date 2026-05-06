@@ -1,9 +1,14 @@
-{% extends "base.html" %} {% block title %}Cadastro Fotografo - FOTECTA: Como conectar fotógrafos com novos clientes{% endblock %}
+<!--cadastro fotográfo-->
+{% extends "base.html" %}
+<!--para que bootstrap, javascript etc funcione nas páginas-->
+{% block title %}Cadastro Fotografo - FOTECTA: Como conectar fotógrafos com novos clientes{% endblock %}
 {%block content%}
 
 <form method="POST">
-
+    <!--post deposita no bd-->
+    <!--falta conectar tudo ao banco de dados-->
     <h3 align="center">NOVO CADASTRO DO PROFISSIONAL</h3>
+    <!--campo para inserir email-->
     <div class="form-group">
         <label for="email">Endereço de Email</label>
         <input
@@ -15,6 +20,7 @@
         />
 
     </div>
+    <!--campo para inserir primeiro nome-->
     <div class="form-group">
         <label for="firstName">Digite seu Nome</label>
         <input
@@ -26,6 +32,7 @@
         />
 
     </div>
+    <!--campo para inserir sobrenome-->
     <div class="form-group">
         <label for="lastName">Digite seu Sobrenome</label>
         <input
@@ -36,6 +43,7 @@
             placeholder="Da Silva Pereira"
         />
     </div>
+    <!--campo para inserir criar senha-->
     <div class="form-group">
         <label for="password1">Crie uma senha</label>
         <input
@@ -46,6 +54,7 @@
             placeholder="Crie uma senha"
         />
     </div>
+    <!--campo para confirmar senha, precisa bater com o div de criar senha-->
     <div class="form-group">
         <label for="password2">Confirme sua senha</label>
         <input
@@ -57,6 +66,7 @@
         />
     </div>
     <br/>
+    <!--botão confirmar-->
     <button type="submit" class="btn btn-primary">Criar Conta para Profissional</button>
 </form>
 {%endblock%}

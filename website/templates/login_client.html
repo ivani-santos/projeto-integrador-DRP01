@@ -1,9 +1,15 @@
-{% extends "base.html" %} {% block title %}Login Cliente - FOTECTA: Como conectar fotógrafos com novos clientes{% endblock %}
+<!--login cliente-->
+{% extends "base.html" %}
+<!--para que bootstrap, javascript etc funcione nas páginas-->
+{% block title %}Login Cliente - FOTECTA: Como conectar fotógrafos com novos clientes{% endblock %}
 {%block content%}
 
 <form method="GET">
+    <!--get pega no bd-->
+    <!--falta conectar tudo ao banco de dados-->
     <h3 align="center">lOGIN DO CLIENTE</h3>
     <div class="form-group">
+        <!--campo para inserir email-->
         <label for="email">Endereço de Email</label>
         <input
             type="email"
@@ -13,6 +19,7 @@
             placeholder="Digite seu Email"
         />
     </div>
+        <!--campo para inserir senha-->
     <div class="form-group">
         <label for="password1">Digite sua senha</label>
         <input
@@ -24,6 +31,7 @@
         />
     </div>
     <br/>
+    <!--botão confirmar-->
     <button type="submit" class="btn btn-primary">Entrar como Cliente</button>
 </form>
 {%endblock%}

@@ -1,3 +1,4 @@
+#roda o site se não tiver bug
 from website import create_app
 
 app = create_app()

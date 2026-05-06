@@ -1,6 +1,8 @@
+<!--página para fazer o bootstrap funcionar nas outras páginas html-->
 <!doctype html>
 <html lang="en">
     <head>
+        <!--baixar bootstrap-->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link
@@ -14,14 +16,18 @@
             href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
             crossorigin="anonymous"
         />
+        <!--tudo entre as chaves aparece na página html-->
         <title>{% block title %}Página Inicial{% endblock %}</title>
     </head>
 
     <body>
+        <!--barra de navegação-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <!--icone para página estreita-->
                     <span class="navbar-toggler-icon"></span>
             </button>
+            <!--links na barra de navegação, necessário adicionar e remover alguns-->
             <div class="collapse navbar-collapse" id="navbar">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" id="home" href="/">Página Inicial</a>
@@ -37,6 +43,7 @@
             {%block content%}
             {%endblock%}
         </div>
+        <!-- incluindo jQuery e o Popper.js-->
         <script
             src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -52,7 +59,7 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"
         ></script>
-
+        <!--para incluir javascript no static-->
         <script
             type="text/javascript"
             src="{{ url_for('static', filename='index.js') }}"
